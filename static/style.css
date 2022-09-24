@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: darkred;
+}
+
+
+
+#navbar ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    margin: 0px;
+
+
+
+}
+
+
+#navbar li {
+    list-style: none;
+
+
+
+
+}
+
+
+#navbar li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 10px 11px;
+    color: white;
+
+
+
+
+}
+#introSection div.large{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#introSection div.small{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#introSection {
+    height: 425px;
+    font-size: 2rem;
+
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+    background-color: red;
+    background-image: url("/static/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+
+
+
+}
+#missionSection{
+    background-color: white;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+    width: 67%;
+    margin: auto;
+}
+ .card h3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 12px;
+  font-weight: 4px solid black bold;
+}
+.card{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 28%;
+    margin: 23px 22px;
+    height: 200px;
+    
+
+
+}
+.card-box{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 140px;
+    padding: 0 14px;
+
+}
+.card-img img{
+    height: inherit;
+    margin-top: 12px;
+}
+.card-content{
+    padding: 0 10px;
+
+}
+.card-content p{
+    font-size: 18px;
+}
+   
+#sponsorsSection {
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 4px solid black bold;
+}
+#sponsors{
+    height: 200px;
+    text-align: center;
+    margin: 44px 40px;
+}
+
+#footer {
+    height: 70px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
